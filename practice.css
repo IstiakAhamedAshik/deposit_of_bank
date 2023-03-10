@@ -1,0 +1,33 @@
+.login-form {
+  margin: 0 auto;
+  width: 900px;
+  background-color: cornflowerblue;
+  border-radius: 8px;
+}
+.login-form .text {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.input-field input {
+  margin-top: 20px;
+  display: block;
+  width: 700px;
+  margin: 30px;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn {
+  width: 150px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: blanchedalmond;
+  background-color: brown;
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.estimate-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.deposite {
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  background-color: rgb(27, 51, 3);
+  border-radius: 10px;
+}
+.withdraw {
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+.total-money {
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  background-color: crimson;
+  border-radius: 10px;
+}
+/* deposite-width-draw field */
+.deposite-withdrw-field {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+}
+
+.deposite-input {
+  display: block;
+  background-color: rgba(105, 80, 47, 0.678);
+  border-radius: 10px;
+  padding: 40px;
+}
+.text {
+  color: white;
+  font-size: 22px;
+}
+.deposite-input input {
+  width: 250px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.btn {
+  width: 100px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: blanchedalmond;
+  background-color: rgb(189, 131, 207);
+  cursor: pointer;
+}
+.widthdraw-input {
+  display: block;
+  background-color: rgba(51, 156, 41, 0.678);
+  border-radius: 10px;
+  padding: 40px;
+}
+.widthdraw-input input {
+  width: 250px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}

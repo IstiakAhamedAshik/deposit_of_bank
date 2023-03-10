@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      Here is my <span style="color: red; font-size: 50px">Money</span>
+    </h1>
+    <main class="container">
+      <section class="estimate-container">
+        <div class="deposite">
+          <h4>DEPOSITE</h4>
+          <p style="font-size: 50px; margin-bottom: 0px">
+            $ <span id="deposite">00</span>
+          </p>
+        </div>
+        <div class="withdraw">
+          <h4>WITHDRAW</h4>
+          <p style="font-size: 50px; margin-bottom: 0px">
+            $<span id="withdraw">00</span>
+          </p>
+        </div>
+        <div class="total-money">
+          <h3>TOTAL BALANCE</h3>
+          <p style="font-size: 50px; margin-bottom: 0px">
+            $<span id="total-blance">00</span>
+          </p>
+        </div>
+      </section>
+      <section class="deposite-withdrw-field">
+        <div class="deposite-input">
+          <h3 class="text">Please Deposite</h3>
+          <div class="input-field">
+            <input
+              id="deposite-input"
+              type="text"
+              placeholder="$ amount you want to deposite"
+            />
+            <div>
+              <button id="button-deposite" class="btn">DEPOSITE</button>
+            </div>
+          </div>
+        </div>
+        <div class="widthdraw-input">
+          <h3 class="text">Please widthdraw</h3>
+          <div class="input-field">
+            <input
+              id="withdraw-input"
+              type="text"
+              placeholder="$ amount you want to withdraw"
+            />
+            <div>
+              <button id="withdraw-button" class="btn">WITHDRAW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="bank.js"></script>
+  </body>
+</html>
